@@ -1,6 +1,7 @@
 QUnit.module('MAIN MODULE', {})  
 
 QUnit.test('TEST', assert => {
+    assert.expect(0);
     function temperatureConverter(valNum) {
         return (valNum-32) / 1.8;
     } 
